@@ -8,9 +8,10 @@ use Symfony\Component\Routing\Annotation\Route;
 class MainController extends AbstractController
 {
     /**
-     * @Route("/", name="main_home")
+     * @Route("/home", name="main_home")
      */
     public function home(){
         echo "hello the world";
+        die();
     }
 }
