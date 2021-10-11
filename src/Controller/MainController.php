@@ -11,7 +11,9 @@ class MainController extends AbstractController
      * @Route("/home", name="main_home")
      */
     public function home(){
+
         echo "hello the world, it is a magic World";
         die();
+
     }
 }
